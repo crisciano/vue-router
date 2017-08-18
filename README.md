@@ -1,6 +1,6 @@
-# vue-cli
+# vue-router
 
-> Testando as funcionalidades do vue cli
+> exemplo de vue.js com rotas em components
 
 ## Build Setup
 
