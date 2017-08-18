@@ -4,17 +4,25 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 import 'materialize-css/dist/css/materialize.min.css'
+// import 'jquery/dist/jquery.min.js'
+// import 'materialize-css/dist/js/materialize.min.js'
 import 'materialize-css/dist/fonts/roboto/Roboto-Regular.woff'
 import Index from '@/components/Index'
 import Contato from '@/components/Contato'
 import Hello from '@/components/Hello'
+import Login from '@/components/Login'
 
 Vue.use(Router)
 
 const router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
+      component: Login
+    },
+    {
+      path: '/home',
       component: Index
     },
     {

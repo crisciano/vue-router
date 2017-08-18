@@ -9,9 +9,10 @@
 	      <div class="col l4 offset-l2 s12">
 	        <h5 class="white-text">Links</h5>
 	        <ul>
-	          <li><a class="grey-text text-lighten-3" href="#/">Index</a></li>
-	          <li><a class="grey-text text-lighten-3" href="#/contato">contato</a></li>
-	          <li><a class="grey-text text-lighten-3" href="#/hello">hello</a></li>
+	          <li><a class="grey-text text-lighten-3" href="/">login</a></li>
+	          <li><a class="grey-text text-lighten-3" href="/home">index</a></li>
+	          <li><a class="grey-text text-lighten-3" href="/contato">contato</a></li>
+	          <li><a class="grey-text text-lighten-3" href="/hello">hello</a></li>
 	          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
 	        </ul>
 	      </div>
