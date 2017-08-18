@@ -1,30 +1,23 @@
-# vue-router
+# vue-cli
 
-> A Vue.js project
+> Testando as funcionalidades do vue cli
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+inicializando vue-cli
+/* caso nao tenha instalado */
+#npm install --global vue-cli
 
-# serve with hot reload at localhost:8080
-npm run dev
+/* criando um projeto */
+# vue init webpack nome-projeto
+# cd nome-projeto
+# npm install
+# npm run dev
 
-# build for production with minification
-npm run build
+/* install materialize */
+# npm install materialize-cli
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Desenvolvedor
+> Crisciano S. Botelho
