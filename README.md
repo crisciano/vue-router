@@ -19,7 +19,7 @@ inicializando vue-cli
 # npm install materialize-cli
 
 ```
-##ref
+## Referencia
 * Dynamic matshing
 	[vue documentation](https://router.vuejs.org/en/essentials/dynamic-matching.html)
 * Getting started
