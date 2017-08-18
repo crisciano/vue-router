@@ -20,9 +20,13 @@ inicializando vue-cli
 
 ```
 ##ref
-> https://router.vuejs.org/en/essentials/dynamic-matching.html
-> https://router.vuejs.org/en/essentials/getting-started.html
-> http://www.vuejs-brasil.com.br/vue-router/
+* Dynamic matshing
+	[vue documentation](https://router.vuejs.org/en/essentials/dynamic-matching.html)
+* Getting started
+	[vue documentation](https://router.vuejs.org/en/essentials/getting-started.html)
+* Vue router
+	[vue documentation](http://www.vuejs-brasil.com.br/vue-router/)
+
 
 ## Desenvolvedor
 > Crisciano S. Botelho
