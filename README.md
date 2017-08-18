@@ -19,5 +19,10 @@ inicializando vue-cli
 # npm install materialize-cli
 
 ```
+##ref
+> https://router.vuejs.org/en/essentials/dynamic-matching.html
+> https://router.vuejs.org/en/essentials/getting-started.html
+> http://www.vuejs-brasil.com.br/vue-router/
+
 ## Desenvolvedor
 > Crisciano S. Botelho
