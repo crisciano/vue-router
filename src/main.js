@@ -1,4 +1,6 @@
 // The Vue build version to load with the `import` command
+// https://vuejs.org/v2/examples/firebase.html
+// https://jsfiddle.net/chrisvfritz/pyLbpzzx/?utm_source=website&utm_medium=embed&utm_campaign=pyLbpzzx
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
