@@ -16,11 +16,14 @@
 </template>
 
 <script>
+// import { router } from '../router/index.js'
+
 export default {
   name: 'nav',
   data () {
     return {
       msg: 'Nav '
+      // router
     }
   }
 }

@@ -13,6 +13,7 @@ import Index from '@/components/Index'
 import Contato from '@/components/Contato'
 import Hello from '@/components/Hello'
 import Login from '@/components/Login'
+// import { router } from './routes'
 
 Vue.use(Router)
 
