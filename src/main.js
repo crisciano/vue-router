@@ -5,7 +5,6 @@
 import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
-import firebase from 'firebase'
 import 'materialize-css/dist/css/materialize.min.css'
 // import 'jquery/dist/jquery.min.js'
 // import 'materialize-css/dist/js/materialize.min.js'
@@ -14,21 +13,6 @@ import Index from '@/components/Index'
 import Contato from '@/components/Contato'
 import Hello from '@/components/Hello'
 import Login from '@/components/Login'
-
-// Setup Firebase
-var config = {
-  apiKey: 'AIzaSyAi_yuJciPXLFr_PYPeU3eTvtXf8jbJ8zw',
-  authDomain: 'vue-demo-537e6.firebaseapp.com',
-  databaseURL: 'https://vue-demo-537e6.firebaseio.com'
-}
-
-firebase.initializeApp(config)
-
-var db = firebase.database()
-
-var usersRef = db.ref('users')
-
-console.log(usersRef)
 
 Vue.use(Router)
 
@@ -61,8 +45,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App },
-  firebase: {
-    users: usersRef
-  }
+  components: { App }
 })

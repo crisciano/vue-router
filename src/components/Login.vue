@@ -8,11 +8,11 @@
           <div class="row">
             <form @submit.prevent="login()">
               <div class="input-field col s12">
-                <input id="email" type="email" v-model="email" class="validate">
+                <input id="email" type="email" v-model="user.email" class="validate">
                 <label for="email">Email</label>
               </div>
               <div class="input-field col s12">
-                <input type="password" id="pass" v-model="password" class="validate">
+                <input type="password" id="pass" v-model="user.password" class="validate">
                 <label for="pass">Password</label>
               </div>
               <button type="submit" class="waves-effect waves-light btn">login</button>
@@ -30,12 +30,16 @@ export default {
   name: 'login',
   data () {
     return {
-      msg: 'login'
+      msg: 'login',
+      user: {
+        email: '',
+        password: ''
+      }
     }
   },
   methods: {
     login () {
-      console.log(this.email, this.password)
+      console.log(this.user.email, this.user.password)
     }
   }
 }

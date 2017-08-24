@@ -9,11 +9,11 @@
 	      <div class="col l4 offset-l2 s12">
 	        <h5 class="white-text">Links</h5>
 	        <ul>
-	          <li><a class="grey-text text-lighten-3" href="/">login</a></li>
-	          <li><a class="grey-text text-lighten-3" href="/home">index</a></li>
-	          <li><a class="grey-text text-lighten-3" href="/contato">contato</a></li>
-	          <li><a class="grey-text text-lighten-3" href="/hello">hello</a></li>
-	          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+	          <li><router-link class="grey-text text-lighten-3" to="/">login</router-link></li>
+	          <li><router-link class="grey-text text-lighten-3" to="/home">index</router-link></li>
+	          <li><router-link class="grey-text text-lighten-3" to="/contato">contato</router-link></li>
+	          <li><router-link class="grey-text text-lighten-3" to="/hello">hello</router-link></li>
+	          <li><router-link class="grey-text text-lighten-3" to="#!">Link 4</router-link></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -21,7 +21,7 @@
 	  <div class="footer-copyright">
 	    <div class="container">
 	    © 2014 Copyright Text
-	    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+	    <router-link class="grey-text text-lighten-4 right" to="#!">More Links</router-link>
 	    </div>
 	  </div>
 	</footer>
